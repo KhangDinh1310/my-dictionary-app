@@ -116,6 +116,7 @@ const Dictionary = ({ defaultKeyword }) => {
       </section>
 
       {results && <Results results={results} />}
+
       {photos && <Photos photos={photos} />}
     </div>
   );
